@@ -15,8 +15,8 @@ const tipo = await select({
     options: [
         { value: 'd2', label: 'Calcular determinante de 2º grau' },
         { value: 'd3', label: 'Calcular determinante de 3º grau' },
-        { value: 'd2e', label: 'Calcular determinante de 2º grau + equação' },
-        { value: 'd3e', label: 'Calcular determinante de 3º grau + equação' },
+        { value: 'd2e', label: 'Calcular X em matriz de 2º grau' },
+        { value: 'd3e', label: 'Calcular X em matriz de 2º grau' },
     ],
     initialValue: 'd2'
 })
